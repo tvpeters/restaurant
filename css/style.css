@@ -2,3 +2,99 @@
 Welcome to the machine
 Where have you been?
 It's alright we know where you've been */
+
+
+/* base-color: #D1A954; 
+   text-color: #222222;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #E5E5E5;
+}
+
+
+/* header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1395px;
+    margin-left: 160px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.header--menu {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    list-style-type: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.header--menu_text {
+    text-decoration: none;
+    color: #000000;
+}
+
+.header--menu_item:first-child .header--menu_text {
+    border: 1px solid rgba(209, 169, 84, 0.9);
+    padding: 7px 9px 6px 9px;
+    font-weight: normal;
+    color: #D1A954;
+}
+
+.header--menu_item:nth-child(2) .header--menu_text {
+    font-weight: bold;
+    color: #D1A954;
+}
+
+
+/* promo slider */
+
+.container {
+    max-width: 1800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.promo-slider {
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.promocard {
+    width: 580px;
+    height: 650px;
+    background: lightgreen;
+}
+
+.slider-controls {
+    margin-bottom: 120px;
+}
+
+
+/* section about */
+
+h1 {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 145%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #222222;
+}
