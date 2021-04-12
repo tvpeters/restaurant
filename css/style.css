@@ -65,7 +65,7 @@ body {
 .promo-slider {
     flex-wrap: wrap;
     gap: 30px;
-    margin-bottom: 120px;
+    margin-bottom: 60px;
 }
 
 .promocard {
@@ -131,7 +131,7 @@ body {
 
 .slider-controls {
     /* 60 - 30 gap */
-    margin-top: 30px;
+    margin-bottom: 120px;
 }
 
 
@@ -139,6 +139,8 @@ body {
 
 .about--section {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .about--background {
@@ -242,6 +244,8 @@ body {
 
 .about--sectionright {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     margin-left: 125px;
     margin-top: 329px;
     margin-bottom: 90px;
@@ -282,6 +286,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    justify-content: center;
 }
 
 .gallery--top_first {
@@ -305,6 +310,7 @@ body {
     margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 30px;
 }
 
@@ -376,6 +382,8 @@ body {
 
 .feedback {
     margin-bottom: 120px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .feedback--left {
