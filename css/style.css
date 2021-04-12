@@ -279,7 +279,8 @@ body {
 
 .gallery {
     display: block;
-    max-width: 1210px;
+    max-width: 1110px;
+    margin-bottom: 150px;
 }
 
 .gallery--top {
@@ -319,4 +320,54 @@ body {
     flex-direction: column;
     max-width: 445px;
     gap: 30px;
+}
+
+
+/* section learn more */
+
+.learnmore {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 409px;
+    background-image: url(../images/learn-more.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 120px;
+}
+
+.learnmore--heading {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 145%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.learnmore--buttons {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+.learnmore--buttons_button {
+    padding: 22px 46px;
+    background: #FFFFFF;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #000000;
+    border: none;
+}
+
+.button--left {
+    padding: 22px 58px;
 }
