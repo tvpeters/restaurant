@@ -1,8 +1,4 @@
-/* Welcome my son
-Welcome to the machine
-Where have you been?
-It's alright we know where you've been */
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 /* base-color: #D1A954; 
    text-color: #222222;
@@ -15,7 +11,7 @@ It's alright we know where you've been */
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background: #E5E5E5;
+    background: #FFFFFF;
 }
 
 
@@ -74,27 +70,193 @@ body {
 .promo-slider {
     flex-wrap: wrap;
     gap: 30px;
-    margin-bottom: 60px;
+    margin-bottom: 120px;
 }
 
 .promocard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     width: 580px;
     height: 650px;
-    background: lightgreen;
+}
+
+.promocard--footer {
+    height: 166px;
+    background: rgba(209, 169, 84, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.promocard--footer_heading {
+    margin-top: 21px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.promocard--footer_paragraph {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 135%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.promocard--footer-border {
+    height: 126px;
+    width: 550px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.corp-party {
+    background-image: url(../images/photo-corp-party.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.wedding {
+    background-image: url(../images/photo-wedding.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.soiree {
+    background-image: url(../images/photo-soiree.png);
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .slider-controls {
-    margin-bottom: 120px;
+    /* 60 - 30 gap */
+    margin-top: 30px;
 }
 
 
 /* section about */
 
-h1 {
+.about--section {
+    display: flex;
+}
+
+.about--background {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: #F9F7F7;
+    margin-bottom: 120px;
+}
+
+.about--heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* mb 240-60 */
+    margin-bottom: -180px;
+}
+
+.heading--main {
     font-weight: 300;
     font-size: 36px;
     line-height: 145%;
     letter-spacing: 0.05em;
     text-transform: uppercase;
     color: #222222;
+}
+
+.heading--small {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 9px;
+    line-height: 11px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.heading--group {
+    display: flex;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.heading--main_logo {
+    height: 30px;
+}
+
+.about--video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 240px;
+}
+
+.about--video_photo {
+    border: 10px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 30px rgba(126, 126, 126, 0.25);
+}
+
+.about--video_playbutton {
+    position: absolute;
+}
+
+.about--sectionleft {
+    display: flex;
+    flex-direction: column;
+    margin-top: 329px;
+    max-width: 350px;
+    /* mb 90-39 */
+    margin-bottom: 51px;
+}
+
+.about--sectionleft_logo {
+    margin-bottom: 33px;
+    height: 110px;
+    align-self: center;
+}
+
+.text--main {
+    margin-bottom: 39px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 135%;
+    color: #616161;
+}
+
+.about--sectionright {
+    display: flex;
+    margin-left: 125px;
+    margin-top: 329px;
+    margin-bottom: 90px;
+    gap: 30px;
+}
+
+.about--sectionright_columnleft {
+    max-width: 255px;
+}
+
+.about--sectionright_columnright {
+    max-width: 255px;
+}
+
+.heading--small {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 135%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.underline {
+    text-decoration-line: underline;
 }
