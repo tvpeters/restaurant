@@ -5,7 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="fonts/montserrat-v15-latin_cyrillic-300.woff2" as="font" type="font/woff2" crossorigin>
+
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/promo.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/learnmore.css">
+    <link rel="stylesheet" href="css/feedback.css">
+    <link rel="stylesheet" href="css/instagram.css">
+    <link rel="stylesheet" href="css/footer.css">
+
     <title>Ресторанный комплекс &laquo;Летний дворец&raquo; - Главная</title>
 </head>
 
@@ -13,94 +24,94 @@
     <header class="header">
         <a href="index.html"><img src="images/logo.svg" alt="logo"></a>
         <nav>
-            <ul class="header--menu">
-                <li class="header--menu_item"><a class="header--menu_text" href="#">Главная</a></li>
-                <li class="header--menu_item"><a class="header--menu_text" href="#">Sofit Event House</a></li>
-                <li class="header--menu_item"><a class="header--menu_text" href="#">Мероприятия</a></li>
-                <li class="header--menu_item"><a class="header--menu_text" href="#">Туристам</a></li>
-                <li class="header--menu_item"><a class="header--menu_text" href="#">Кейтеринг</a></li>
-                <li class="header--menu_item"><a class="header--menu_text" href="#">Для агенств</a></li>
+            <ul class="header__menu">
+                <li class="header__item"><a class="header__item--text" href="#">Главная</a></li>
+                <li class="header__item"><a class="header__item--text" href="#">Sofit Event House</a></li>
+                <li class="header__item"><a class="header__item--text" href="#">Мероприятия</a></li>
+                <li class="header__item"><a class="header__item--text" href="#">Туристам</a></li>
+                <li class="header__item"><a class="header__item--text" href="#">Кейтеринг</a></li>
+                <li class="header__item"><a class="header__item--text" href="#">Для агенств</a></li>
             </ul>
         </nav>
         <a href="#"><img src="images/icon-ext-menu.svg" alt="Menu"></a>
     </header>
 
     <main>
-        <section class="promo-slider wrapper">
-            <div class="promocard corp-party">
-                <div class="promocard--footer">
-                    <div class="promocard--footer-border">
-                        <h2 class="promocard--footer_heading">Корпоративы</h2>
-                        <p class="promocard--footer_paragraph">Отметьте лучший праздник<br> в лучшем дворце Петербурга!</p>
+        <section class="promo wrapper">
+            <div class="promo__card corp-party">
+                <div class="promo__footer">
+                    <div class="promo__border">
+                        <h2 class="promo__heading">Корпоративы</h2>
+                        <p class="promo__paragraph">Отметьте лучший праздник<br> в лучшем дворце Петербурга!</p>
                     </div>
                 </div>
             </div>
-            <div class="promocard wedding">
-                <div class="promocard--footer">
-                    <div class="promocard--footer-border">
-                        <h2 class="promocard--footer_heading">Свадьбы</h2>
-                        <p class="promocard--footer_paragraph">Отметьте лучший праздник<br> в лучшем дворце Петербурга!</p>
+            <div class="promo__card wedding">
+                <div class="promo__footer">
+                    <div class="promo__border">
+                        <h2 class="promo__heading">Свадьбы</h2>
+                        <p class="promo__paragraph">Отметьте лучший праздник<br> в лучшем дворце Петербурга!</p>
                     </div>
                 </div>
             </div>
-            <div class="promocard soiree">
-                <div class="promocard--footer">
-                    <div class="promocard--footer-border">
-                        <h2 class="promocard--footer_heading">Званые вечера</h2>
-                        <p class="promocard--footer_paragraph">Отметьте лучший праздник<br> в лучшем дворце Петербурга!</p>
+            <div class="promo__card soiree">
+                <div class="promo__footer">
+                    <div class="promo__border">
+                        <h2 class="promo__heading">Званые вечера</h2>
+                        <p class="promo__paragraph">Отметьте лучший праздник<br> в лучшем дворце Петербурга!</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <div class="slider-controls wrapper">
+        <div class="promo__slider-controls wrapper">
             <a href="#"><img src="images/slider-controls.svg" alt="slider controls"></a>
         </div>
 
         <section class="about">
-            <div class="about--heading">
-                <h2 class="heading--main">О ресторане</h2>
-                <img class="heading--main_logo" src="images/logo-small.svg" alt="logo small">
-                <h3 class="heading--mini">Летний дворец</h3>
+            <div class="about__header">
+                <h2 class="about__heading--big">О ресторане</h2>
+                <img class="about__logo-small" src="images/logo-small.svg" alt="logo small">
+                <h3 class="about__heading--mini">Летний дворец</h3>
             </div>
-            <div class="about--video">
-                <img class="about--video_photo" src="images/photo-video-about.png" alt="video about restaurant">
-                <img class="about--video_playbutton" src="images/button-play.svg" alt="play button">
+            <div class="about__video">
+                <img class="about__photo" src="images/photo-video-about.png" alt="video about restaurant">
+                <img class="about__playbutton" src="images/button-play.svg" alt="play button">
             </div>
-            <div class="about--background">
-                <div class="about--section">
-                    <div class="about--sectionleft">
-                        <img class="about--sectionleft_logo" src="images/logo.svg" alt="logo">
-                        <p class="text--main">
+            <div class="about__background">
+                <div class="about__content">
+                    <div class="about__left">
+                        <img class="about__logo" src="images/logo.svg" alt="logo">
+                        <p class="about__text">
                             Добро пожаловать в&nbsp;Летний Дворец!<br>
                             <br> Всего в&nbsp;12&nbsp;километрах от&nbsp;Петербурга, неподалеку от&nbsp;знаменитых фонтанов и&nbsp;парков Петергофа воплощен в&nbsp;жизнь один из&nbsp;самых грандиозных проектов event-индустрии России&nbsp;&mdash; ресторанный
                             комплекс &laquo;Летний Дворец&raquo;. Открытый в&nbsp;2009&nbsp;году, он&nbsp;объединил под одной крышей современный банкетный зал в&nbsp;исторических дворцовых интерьерах на&nbsp;800 гостей и&nbsp;собственный кейтеринг.
                         </p>
                     </div>
-                    <div class="about--sectionright">
-                        <div class="about--sectionright_columnleft">
-                            <div class="heading--group">
+                    <div class="about__right">
+                        <div class="about__column-left">
+                            <div class="about__title">
                                 <img src="images/icon-place.svg" alt="icon place">
-                                <h2 class="heading--small underline">Площадка</h2>
+                                <h2 class="about__heading--small">Площадка</h2>
                             </div>
-                            <p class="text--main underline">Сочетание классических интерьеров и современных технических возможностей выгодно отличают Летний Дворец от большинства других исторических площадок города.</p>
-                            <div class="heading--group">
+                            <p class="about__text">Сочетание классических интерьеров и современных технических возможностей выгодно отличают Летний Дворец от большинства других исторических площадок города.</p>
+                            <div class="about__title">
                                 <img src="images/icon-technologies.svg" alt="icon technologies">
-                                <h2 class="heading--small">Технологии</h2>
+                                <h2 class="about__heading--small">Технологии</h2>
                             </div>
-                            <p class="text--main">Возможности «Летнего Дворца» практически безграничны с точки зрения проведения мероприятий самого разного формата и масштаба.</p>
+                            <p class="about__text">Возможности «Летнего Дворца» практически безграничны с точки зрения проведения мероприятий самого разного формата и масштаба.</p>
                         </div>
-                        <div class="about--sectionright_columnright">
-                            <div class="heading--group">
+                        <div class="about__column-right">
+                            <div class="about__title">
                                 <img src="images/icon-interiors.svg" alt="icon interiors">
-                                <h2 class="heading--small">Интерьеры</h2>
+                                <h2 class="about__heading--small">Интерьеры</h2>
                             </div>
-                            <p class="text--main">Изысканное внутреннее убранство Летнего Дворца — тонко выполненная стилизация с использованием традиционных технологий и материалов — мрамора, бронзового литья.</p>
-                            <div class="heading--group">
+                            <p class="about__text">Изысканное внутреннее убранство Летнего Дворца — тонко выполненная стилизация с использованием традиционных технологий и материалов — мрамора, бронзового литья.</p>
+                            <div class="about__title">
                                 <img src="images/icon-equipment.svg" alt="icon equipment">
-                                <h2 class="heading--small">Оборудование</h2>
+                                <h2 class="about__heading--small">Оборудование</h2>
                             </div>
-                            <p class="text--main">Установлен комплект самого современного звукового оборудования, который приятно удивит даже знатока качественного звука.</p>
+                            <p class="about__text">Установлен комплект самого современного звукового оборудования, который приятно удивит даже знатока качественного звука.</p>
                         </div>
                     </div>
                 </div>
@@ -108,20 +119,20 @@
         </section>
 
         <section class="gallery wrapper">
-            <div class="gallery--top">
-                <div class="gallery--top_first">
-                    <h2 class="gallery--top_heading">Галерея</h2>
-                    <img class="heading--main_logo" src="images/logo-small.svg" alt="logo small">
-                    <h3 class="heading--mini">Летний дворец</h3>
+            <div class="gallery__top">
+                <div class="gallery__header">
+                    <h2 class="gallery__heading">Галерея</h2>
+                    <img class="gallery__logo" src="images/logo-small.svg" alt="logo small">
+                    <h3 class="gallery__heading--mini">Летний дворец</h3>
                 </div>
                 <img src="images/gallery01-prev.png" alt="gallery photo">
                 <img src="images/gallery02-prev.png" alt="gallery photo">
             </div>
-            <div class="gallery--bottom">
-                <div class="gallery--bottom_left">
+            <div class="gallery__bottom">
+                <div class="gallery__left">
                     <img src="images/gallery00.png" alt="gallery photo">
                 </div>
-                <div class="gallery--bottom_right">
+                <div class="gallery__right">
                     <img src="images/gallery03-prev.png" alt="gallery photo">
                     <img src="images/gallery04-prev.png" alt="gallery photo">
                 </div>
@@ -129,64 +140,71 @@
         </section>
 
         <section class="learnmore">
-            <h2 class="learnmore--heading">Узнайте о нас больше</h2>
-            <div class="learnmore--buttons">
-                <button class="learnmore--buttons_button button--left">Скачать план</button>
-                <button class="learnmore--buttons_button">Скачать презентацию</button>
+            <h2 class="learnmore__heading">Узнайте о нас больше</h2>
+            <div class="learnmore__buttons">
+                <button class="learnmore__button learnmore__button-left">Скачать план</button>
+                <button class="learnmore__button">Скачать презентацию</button>
             </div>
         </section>
 
         <section class="feedback wrapper">
-            <div class="feedback--left">
-                <h2 class="feedback--left_heading">Хотите провести мероприятие?</h2>
-                <p class="feedback--left_paragraph">Или у&nbsp;вас остались вопросы, на&nbsp;которые мы&nbsp;сможем вам ответить в&nbsp;процессе разговора&nbsp;&mdash; напишите нам. Мы&nbsp;открыты для диалога!</p>
-                <div class="feedback--left_bottom">
+            <div class="feedback__left">
+                <h2 class="feedback__heading-big">Хотите провести мероприятие?</h2>
+                <p class="feedback__paragraph">Или у&nbsp;вас остались вопросы, на&nbsp;которые мы&nbsp;сможем вам ответить в&nbsp;процессе разговора&nbsp;&mdash; напишите нам. Мы&nbsp;открыты для диалога!</p>
+                <div class="feedback__bottom">
                     <div>
-                        <h3 class="feedback--heading">Ресторан</h3>
-                        <ul class="feedback--contacts">
-                            <li class="feedback--contacts_item"><img src="images/icon-placeholder.svg" alt="icon placeholder">Санкт-Петербургское шоссе, д&nbsp;130, к.&nbsp;7</li>
-                            <li class="feedback--contacts_item"><img src="images/icon-smartphone.svg" alt="icon smartphone">+7 (812) 210 67&nbsp;95</li>
-                            <li class="feedback--contacts_item"><img src="images/icon-mail.svg" alt="icon mail">hello@summerpalace.ru</li>
+                        <h3 class="feedback__heading">Ресторан</h3>
+                        <ul class="feedback__contacts">
+                            <li class="feedback__contact--underline"><img src="images/icon-placeholder.svg" alt="icon placeholder">Санкт-Петербургское шоссе, д&nbsp;130, к.&nbsp;7</li>
+                            <li class="feedback__contact"><img src="images/icon-smartphone.svg" alt="icon smartphone">+7 (812) 210 67&nbsp;95</li>
+                            <li class="feedback__contact"><img src="images/icon-mail.svg" alt="icon mail">hello@summerpalace.ru</li>
                         </ul>
                     </div>
                     <div>
-                        <h3 class="feedback--heading">Офис</h3>
-                        <ul class="feedback--contacts">
-                            <li class="feedback--contacts_item"><img src="images/icon-placeholder.svg" alt="icon placeholder">ст.&nbsp;м. &laquo;Лиговский проспект&raquo;, ул. Черняховского, д.&nbsp;75</li>
-                            <li class="feedback--contacts_item"><img src="images/icon-smartphone.svg" alt="icon smartphone">+7 (812) 210 67&nbsp;95</li>
-                            <li class="feedback--contacts_item"><img src="images/icon-mail.svg" alt="icon mail">hello@summerpalace.ru</li>
+                        <h3 class="feedback__heading">Офис</h3>
+                        <ul class="feedback__contacts">
+                            <li class="feedback__contact--underline"><img src="images/icon-placeholder.svg" alt="icon placeholder">ст.&nbsp;м. &laquo;Лиговский проспект&raquo;, ул. Черняховского, д.&nbsp;75</li>
+                            <li class="feedback__contact"><img src="images/icon-smartphone.svg" alt="icon smartphone">+7 (812) 210 67&nbsp;95</li>
+                            <li class="feedback__contact"><img src="images/icon-mail.svg" alt="icon mail">hello@summerpalace.ru</li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="feedback--right">
-                <form class="feedback--right" action="mailto:hello@summerpalace.ru" enctype="text/plain">
-                    <input class="feedback--input" type="text" placeholder="Ваше имя">
-                    <input class="feedback--input" type="text" placeholder="Ваш email">
-                    <textarea class="feedback--message" name="message" id="feedback-message" placeholder="Сообщение"></textarea>
-                    <input class="feedback--submit" type="submit" value="Отправить">
+            <div class="feedback__right">
+                <form class="feedback__right" action="mailto:hello@summerpalace.ru" enctype="text/plain">
+                    <input class="feedback__input" type="text" placeholder="Ваше имя">
+                    <input class="feedback__input" type="text" placeholder="Ваш email">
+                    <textarea class="feedback__message" name="message" id="feedback-message" placeholder="Сообщение"></textarea>
+                    <input class="feedback__submit" type="submit" value="Отправить">
                 </form>
             </div>
         </section>
 
         <section>
             <div class="instagram">
-                <div class="instagram--heading">
-                    <h2 class="heading--main">Наш Instagram</h2>
-                    <img class="heading--main_logo" src="images/logo-small.svg" alt="logo small">
-                    <h3 class="heading--mini">Летний дворец</h3>
+                <div class="instagram__header">
+                    <h2 class="instagram__heading--big">Наш Instagram</h2>
+                    <img class="instagram__logo-small" src="images/logo-small.svg" alt="logo small">
+                    <h3 class="instagram__heading--mini">Летний дворец</h3>
                 </div>
             </div>
-            <div class="instagram-feed"></div>
+            <div class="instagram__feed">
+                <img src="images/insta01-prev.png" alt="instagram image">
+                <img src="images/insta02-prev.png" alt="instagram image">
+                <img src="images/insta01-prev.png" alt="instagram image">
+                <img src="images/insta02-prev.png" alt="instagram image">
+                <img src="images/insta01-prev.png" alt="instagram image">
+                <img src="images/insta02-prev.png" alt="instagram image">
+            </div>
         </section>
     </main>
 
     <footer class="footer">
-        <p class="footer--paragraph">Copyright &copy;&nbsp;2019 Ресторан &laquo;Летний дворец&raquo;</p>
+        <p class="footer__paragraph">Copyright &copy;&nbsp;2019 Ресторан &laquo;Летний дворец&raquo;</p>
         <div>
-            <a class="footer--social" href="#">Facebook</a>&nbsp;&mdash;
-            <a class="footer--social" href="#">Vkontakte</a>&nbsp;&mdash;
-            <a class="footer--social" href="#">Instagram</a>
+            <a class="footer__social" href="#">Facebook</a>&nbsp;&mdash;
+            <a class="footer__social" href="#">Vkontakte</a>&nbsp;&mdash;
+            <a class="footer__social" href="#">Instagram</a>
         </div>
     </footer>
 </body>

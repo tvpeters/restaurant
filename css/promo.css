@@ -1,0 +1,72 @@
+/* promo section */
+
+.promo {
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.promo__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 580px;
+    height: 650px;
+}
+
+.promo__footer {
+    height: 166px;
+    background: rgba(209, 169, 84, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.promo__border {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 126px;
+    width: 550px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.promo__heading {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.promo__paragraph {
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.corp-party {
+    background-image: url(../images/photo-corp-party.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.wedding {
+    background-image: url(../images/photo-wedding.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.soiree {
+    background-image: url(../images/photo-soiree.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.promo__slider-controls {
+    /* 60 - 30 gap */
+    margin-bottom: 120px;
+}

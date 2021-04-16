@@ -1,0 +1,124 @@
+/* about section */
+
+.about__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* mb 240-60 */
+    margin-bottom: -180px;
+}
+
+.about__logo {
+    margin-bottom: 33px;
+    height: 110px;
+    align-self: center;
+}
+
+.about__logo-small {
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.about__video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 240px;
+}
+
+.about__photo {
+    border: 10px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 30px rgba(126, 126, 126, 0.25);
+}
+
+.about__playbutton {
+    position: absolute;
+}
+
+.about__background {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: #F9F7F7;
+    margin-bottom: 120px;
+}
+
+.about__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about__left {
+    display: flex;
+    flex-direction: column;
+    margin-top: 329px;
+    max-width: 350px;
+}
+
+.about__title {
+    display: flex;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.about__right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 125px;
+    margin-top: 329px;
+    margin-bottom: 90px;
+    gap: 30px;
+}
+
+.about__column-left {
+    max-width: 255px;
+}
+
+.about__column-right {
+    max-width: 255px;
+}
+
+
+/* text and headings */
+
+.about__heading--big {
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 145%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.about__heading--small {
+    align-self: flex-end;
+    margin: 0;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 135%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.about__heading--mini {
+    margin: 0;
+    font-weight: 300;
+    font-size: 9px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.about__text {
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-size: 14px;
+    color: #616161;
+}
