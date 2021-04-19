@@ -21,18 +21,18 @@
     text-transform: uppercase;
 }
 
-.header__item:first-child .header__item--text {
+.header__item:first-child .header__text {
     border: 1px solid rgba(209, 169, 84, 0.9);
     padding: 7px 9px 6px 9px;
     color: #D1A954;
 }
 
-.header__item:nth-child(2) .header__item--text {
+.header__item:nth-child(2) .header__text {
     font-weight: bold;
     color: #D1A954;
 }
 
-.header__item--text {
+.header__text {
     text-decoration: none;
     color: #000000;
 }

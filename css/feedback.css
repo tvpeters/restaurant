@@ -67,6 +67,11 @@
     text-decoration: underline;
 }
 
+.feedback__phonemail {
+    text-decoration: none;
+    color: #000000;
+}
+
 .feedback__right {
     display: flex;
     flex-direction: column;

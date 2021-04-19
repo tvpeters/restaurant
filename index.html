@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preload" href="fonts/montserrat-v15-latin_cyrillic-300.woff2" as="font" type="font/woff2" crossorigin>
 
+    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/promo.css">
@@ -25,18 +26,19 @@
         <a href="index.html"><img src="images/logo.svg" alt="logo"></a>
         <nav>
             <ul class="header__menu">
-                <li class="header__item"><a class="header__item--text" href="#">Главная</a></li>
-                <li class="header__item"><a class="header__item--text" href="#">Sofit Event House</a></li>
-                <li class="header__item"><a class="header__item--text" href="#">Мероприятия</a></li>
-                <li class="header__item"><a class="header__item--text" href="#">Туристам</a></li>
-                <li class="header__item"><a class="header__item--text" href="#">Кейтеринг</a></li>
-                <li class="header__item"><a class="header__item--text" href="#">Для агенств</a></li>
+                <li class="header__item"><a class="header__text" href="#">Главная</a></li>
+                <li class="header__item"><a class="header__text" href="#">Sofit Event House</a></li>
+                <li class="header__item"><a class="header__text" href="#">Мероприятия</a></li>
+                <li class="header__item"><a class="header__text" href="#">Туристам</a></li>
+                <li class="header__item"><a class="header__text" href="#">Кейтеринг</a></li>
+                <li class="header__item"><a class="header__text" href="#">Для агенств</a></li>
             </ul>
         </nav>
         <a href="#"><img src="images/icon-ext-menu.svg" alt="Menu"></a>
     </header>
 
     <main>
+        <h1 class="visually-hidden">Ресторанный комплекс Летний дворец</h1>
         <section class="promo wrapper">
             <div class="promo__card corp-party">
                 <div class="promo__footer">
@@ -141,9 +143,9 @@
 
         <section class="learnmore">
             <h2 class="learnmore__heading">Узнайте о нас больше</h2>
-            <div class="learnmore__buttons">
-                <button class="learnmore__button learnmore__button-left">Скачать план</button>
-                <button class="learnmore__button">Скачать презентацию</button>
+            <div class="learnmore__downloads">
+                <div class="learnmore__download learnmore__download-left"><a class="learnmore__text" href="#">Скачать план</a></div>
+                <div class="learnmore__download"><a class="learnmore__text" href="#">Скачать презентацию</a></div>
             </div>
         </section>
 
@@ -156,26 +158,27 @@
                         <h3 class="feedback__heading">Ресторан</h3>
                         <ul class="feedback__contacts">
                             <li class="feedback__contact--underline"><img src="images/icon-placeholder.svg" alt="icon placeholder">Санкт-Петербургское шоссе, д&nbsp;130, к.&nbsp;7</li>
-                            <li class="feedback__contact"><img src="images/icon-smartphone.svg" alt="icon smartphone">+7 (812) 210 67&nbsp;95</li>
-                            <li class="feedback__contact"><img src="images/icon-mail.svg" alt="icon mail">hello@summerpalace.ru</li>
+                            <li class="feedback__contact"><img src="images/icon-smartphone.svg" alt="icon smartphone">
+                                <a class="feedback__phonemail" href="tel:+78122106795">+7 (812) 210 67&nbsp;95</a></li>
+                            <li class="feedback__contact"><img src="images/icon-mail.svg" alt="icon mail"><a class="feedback__phonemail" href="mailto:hello@summerpalace.ru">hello@summerpalace.ru</a></li>
                         </ul>
                     </div>
                     <div>
                         <h3 class="feedback__heading">Офис</h3>
                         <ul class="feedback__contacts">
                             <li class="feedback__contact--underline"><img src="images/icon-placeholder.svg" alt="icon placeholder">ст.&nbsp;м. &laquo;Лиговский проспект&raquo;, ул. Черняховского, д.&nbsp;75</li>
-                            <li class="feedback__contact"><img src="images/icon-smartphone.svg" alt="icon smartphone">+7 (812) 210 67&nbsp;95</li>
-                            <li class="feedback__contact"><img src="images/icon-mail.svg" alt="icon mail">hello@summerpalace.ru</li>
+                            <li class="feedback__contact"><img src="images/icon-smartphone.svg" alt="icon smartphone"><a class="feedback__phonemail" href="tel:+78122106795">+7 (812) 210 67&nbsp;95</a></li>
+                            <li class="feedback__contact"><img src="images/icon-mail.svg" alt="icon mail"><a class="feedback__phonemail" href="mailto:hello@summerpalace.ru">hello@summerpalace.ru</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="feedback__right">
                 <form class="feedback__right" action="mailto:hello@summerpalace.ru" enctype="text/plain">
-                    <input class="feedback__input" type="text" placeholder="Ваше имя">
-                    <input class="feedback__input" type="text" placeholder="Ваш email">
+                    <input class="feedback__input" type="text" name="name" placeholder="Ваше имя">
+                    <input class="feedback__input" type="email" name="email" placeholder="Ваш email">
                     <textarea class="feedback__message" name="message" id="feedback-message" placeholder="Сообщение"></textarea>
-                    <input class="feedback__submit" type="submit" value="Отправить">
+                    <button class="feedback__submit" type="submit">Отправить</button>
                 </form>
             </div>
         </section>

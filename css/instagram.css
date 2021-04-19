@@ -42,4 +42,5 @@
 
 .instagram__feed {
     display: flex;
+    overflow-x: hidden
 }

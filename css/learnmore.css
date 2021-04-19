@@ -24,25 +24,28 @@
     margin-bottom: 70px;
 }
 
-.learnmore__buttons {
+.learnmore__downloads {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 90px;
 }
 
-.learnmore__button {
+.learnmore__download {
     padding: 22px 46px;
     background: #FFFFFF;
+    border: none;
+}
+
+.learnmore__download-left {
+    padding: 22px 58px;
+}
+
+.learnmore__text {
+    text-decoration: none;
+    text-transform: uppercase;
     font-size: 16px;
     line-height: 20px;
     letter-spacing: 0.05em;
-    text-transform: uppercase;
     color: #000000;
-    border: none;
-    cursor: pointer;
-}
-
-.learnmore__button-left {
-    padding: 22px 58px;
 }
