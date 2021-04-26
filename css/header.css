@@ -8,6 +8,14 @@
     margin: 60px auto;
 }
 
+.header__logo {
+    fill: #000;
+}
+
+.icon-ext-menu {
+    fill: #000;
+}
+
 .header__menu {
     display: flex;
     flex-wrap: wrap;

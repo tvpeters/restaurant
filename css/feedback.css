@@ -88,7 +88,7 @@
 }
 
 .feedback__message {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', Helvetica, sans-serif;
     font-size: 14px;
     line-height: 135%;
     box-sizing: border-box;

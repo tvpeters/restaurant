@@ -21,7 +21,7 @@
 }
 
 .gallery__logo {
-    height: 30px;
+    align-self: center;
     margin-bottom: 10px;
 }
 
