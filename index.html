@@ -22,7 +22,7 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header wrapper">
         <a href="index.html"><img src="images/logo.svg" alt="logo"></a>
         <nav>
             <ul class="header__menu">
@@ -38,7 +38,7 @@
     </header>
 
     <main>
-        <h1 class="visually-hidden">Ресторанный комплекс Летний дворец</h1>
+        <h1 class="visually-hidden">Ресторанный комплекс &laquo;Летний дворец&raquo;</h1>
         <section class="promo wrapper">
             <div class="promo__card corp-party">
                 <div class="promo__footer">
@@ -66,19 +66,21 @@
             </div>
         </section>
 
-        <div class="promo__slider-controls wrapper">
+        <div class="slider-controls wrapper">
             <a href="#"><img src="images/slider-controls.svg" alt="slider controls"></a>
         </div>
 
         <section class="about">
-            <div class="about__header">
-                <h2 class="about__heading--big">О ресторане</h2>
-                <img class="about__logo-small" src="images/logo-small.svg" alt="logo small">
-                <h3 class="about__heading--mini">Летний дворец</h3>
-            </div>
             <div class="about__video">
-                <img class="about__photo" src="images/photo-video-about.png" alt="video about restaurant">
-                <img class="about__playbutton" src="images/button-play.svg" alt="play button">
+                <div class="about__header">
+                    <h2 class="about__heading--big">О ресторане</h2>
+                    <img class="about__logo-small" src="images/logo-small.svg" alt="logo small">
+                    <h3 class="about__heading--mini">Летний дворец</h3>
+                </div>
+                <div class="about__video-content">
+                    <img class="about__photo" src="images/photo-video-about.png" alt="video about restaurant">
+                    <img class="about__playbutton" src="images/button-play.svg" alt="play button">
+                </div>
             </div>
             <div class="about__background">
                 <div class="about__content">
@@ -192,17 +194,11 @@
                 </div>
             </div>
             <div class="instagram__feed">
-                <img src="images/insta01-prev.png" alt="instagram image">
-                <img src="images/insta02-prev.png" alt="instagram image">
-                <img src="images/insta01-prev.png" alt="instagram image">
-                <img src="images/insta02-prev.png" alt="instagram image">
-                <img src="images/insta01-prev.png" alt="instagram image">
-                <img src="images/insta02-prev.png" alt="instagram image">
             </div>
         </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer wrapper">
         <p class="footer__paragraph">Copyright &copy;&nbsp;2019 Ресторан &laquo;Летний дворец&raquo;</p>
         <div>
             <a class="footer__social" href="#">Facebook</a>&nbsp;&mdash;

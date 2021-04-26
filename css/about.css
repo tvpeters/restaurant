@@ -1,11 +1,16 @@
 /* about section */
 
+.about {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+}
+
 .about__header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* mb 240-60 */
-    margin-bottom: -180px;
+    margin-bottom: 60px;
 }
 
 .about__logo {
@@ -19,8 +24,16 @@
     margin-bottom: 10px;
 }
 
+.about__video-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .about__video {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     position: relative;
@@ -40,7 +53,6 @@
 .about__background {
     display: flex;
     justify-content: center;
-    width: 100%;
     background: #F9F7F7;
     margin-bottom: 120px;
 }

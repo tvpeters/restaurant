@@ -5,9 +5,7 @@
     justify-content: space-between;
     align-items: center;
     max-width: 1395px;
-    margin-left: 160px;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin: 60px auto;
 }
 
 .header__menu {

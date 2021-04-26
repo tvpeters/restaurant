@@ -41,6 +41,6 @@
 }
 
 .instagram__feed {
-    display: flex;
-    overflow-x: hidden
+    min-height: 304px;
+    background-image: url(../images/insta_feed-prev.png);
 }
