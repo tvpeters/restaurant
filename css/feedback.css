@@ -17,14 +17,14 @@
     line-height: 145%;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: #000000;
+    color: var(--feedback-heading-big-color);
     margin-top: 0;
     margin-bottom: 40px;
 }
 
 .feedback__paragraph {
     font-size: 14px;
-    color: #616161;
+    color: var(--paragraph-color);
     margin-top: 0;
     margin-bottom: 40px;
 }
@@ -42,7 +42,7 @@
     line-height: 135%;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: #000000;
+    color: var(--feedback-heading-color);
 }
 
 .feedback__contacts {
@@ -50,7 +50,7 @@
     margin: 0;
     font-size: 14px;
     line-height: 135%;
-    color: #000000;
+    color: var(--feedback-contacts-color);
 }
 
 .feedback__contact {
@@ -69,7 +69,7 @@
 
 .feedback__phonemail {
     text-decoration: none;
-    color: #000000;
+    color: var(--feedback-phonemail-color);
 }
 
 .feedback__right {
@@ -84,7 +84,7 @@
     border: none;
     border-bottom: 0.5px solid #D0D0D0;
     font-size: 14px;
-    color: #616161;
+    color: var(--paragraph-color);
 }
 
 .feedback__message {
@@ -98,7 +98,7 @@
     padding-left: 20px;
     width: 540px;
     height: 196px;
-    border: 0.5px solid #D0D0D0;
+    border: var(--feedback-message-border);
 }
 
 .feedback__submit {
@@ -107,10 +107,10 @@
     border: none;
     width: 182px;
     height: 45px;
-    background: #D1A954;
+    background: var(--main-color);
     font-size: 16px;
     line-height: 135%;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--feedback-submit-color);
 }

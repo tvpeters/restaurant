@@ -16,7 +16,7 @@
 
 .promo__footer {
     height: 166px;
-    background: rgba(209, 169, 84, 0.9);
+    background: var(--main-color-op);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +28,7 @@
     justify-content: center;
     height: 126px;
     width: 550px;
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    border: var(--promo-border);
 }
 
 .promo__heading {
@@ -38,30 +38,30 @@
     font-weight: normal;
     font-size: 30px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--promo-heading-color);
 }
 
 .promo__paragraph {
     margin: 0;
     font-size: 14px;
     text-align: center;
-    color: #FFFFFF;
+    color: var(--promo-paragraph-color);
 }
 
 .corp-party {
-    background-image: url(../images/photo-corp-party.png);
+    background-image: url(../images/photo-corp-party@1.png);
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .wedding {
-    background-image: url(../images/photo-wedding.png);
+    background-image: url(../images/photo-wedding@1.png);
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .soiree {
-    background-image: url(../images/photo-soiree.png);
+    background-image: url(../images/photo-soiree@1.png);
     background-position: center;
     background-repeat: no-repeat;
 }

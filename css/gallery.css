@@ -30,7 +30,7 @@
     line-height: 135%;
     text-align: center;
     text-transform: uppercase;
-    color: #000000;
+    color: var(--gallery-heading-color);
     margin-top: 0;
     margin-bottom: 25px;
 }
@@ -42,7 +42,7 @@
     letter-spacing: 0.03em;
     text-align: center;
     text-transform: uppercase;
-    color: #000000;
+    color: var(--gallery-heading--mini-color);
 }
 
 .gallery__bottom {

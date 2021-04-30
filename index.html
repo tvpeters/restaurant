@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preload" href="fonts/montserrat-v15-latin_cyrillic-300.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/montserrat-v15-latin_cyrillic-300.woff2" as="font" type="font/woff2">
 
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
@@ -22,20 +22,14 @@
         // Picture element HTML5 shiv
         document.createElement("picture");
     </script>
-    <script src="scripts/picturefill.min.js" async></script>
+    <script src="js/picturefill.min.js" async></script>
 
     <title>Ресторанный комплекс &laquo;Летний дворец&raquo;&nbsp;&mdash; Главная</title>
 </head>
 
 <body>
     <header class="header wrapper">
-        <a href="index.html">
-            <!-- TODO: Не работает, исправить -->
-            <!-- <img src="images/svg/logo.svg" width="160" height="87" alt="logo"> -->
-            <svg id="logo" class="icon header__logo" width="160" height="87">
-                <use xlink:href="images/svg/sprite.svg#logo"></use>
-            </svg>
-        </a>
+        <a href="index.html"><img class="header__logo" src="images/svg/logo.svg" width="160" height="87" alt="logo"></a>
         <nav>
             <ul class="header__menu">
                 <li class="header__item"><a class="header__text" href="#">Главная</a></li>
@@ -46,13 +40,7 @@
                 <li class="header__item"><a class="header__text" href="#">Для агенств</a></li>
             </ul>
         </nav>
-        <a href="#">
-            <!-- TODO: Не работает, исправить -->
-            <!-- <img src="images/svg/icon-ext-menu.svg" width="40" height="20" alt="menu"> -->
-            <svg id="icon-ext-menu" class="icon icon-ext-menu" width="40" height="20">
-                <use xlink:href="images/svg/sprite.svg#icon-ext-menu"></use>
-            </svg>
-        </a>
+        <a href="#"><img class="header__hamburger" src="images/svg/icon-ext-menu.svg" width="40" height="20" alt="menu"></a>
     </header>
 
     <main>
@@ -85,28 +73,28 @@
         </section>
 
         <div class="slider-controls wrapper">
-            <a href="#"><img src="images/slider-controls.svg" width="172" height="9" alt="slider controls"></a>
+            <a href="#"><img src="images/svg/slider-controls.svg" width="172" height="9" alt="slider controls"></a>
         </div>
 
         <section class="about">
             <div class="about__video">
                 <div class="about__header">
                     <h2 class="about__heading--big">О ресторане</h2>
-                    <img class="about__logo-small" src="images/logo-small.svg" width="46" height="30" alt="logo small">
+                    <img class="about__logo-small" src="images/svg/logo-small.svg" width="46" height="30" alt="logo small">
                     <h3 class="about__heading--mini">Летний дворец</h3>
                 </div>
                 <div class="about__video-content">
                     <picture>
-                        <source srcset="images/photo-video-about.png, images/photo-video-about@2.png 2x" type="image/png">
-                        <img class="about__photo" src="images/photo-video-about.png" srcset="images/photo-video-about@2.png 2x" width="920" height="479" alt="video about restaurant">
+                        <source srcset="images/photo-video-about@1.png 1x, images/photo-video-about@2.png 2x" type="image/png">
+                        <img class="about__photo" src="images/photo-video-about@1.png 1x" srcset="images/photo-video-about@2.png 2x" width="920" height="479" alt="video about restaurant">
                     </picture>
-                    <img class="about__playbutton" src="images/button-play.svg" width="80" height="80" alt="play button">
+                    <img class="about__playbutton" src="images/svg/button-play.svg" width="80" height="80" alt="play button">
                 </div>
             </div>
             <div class="about__background">
                 <div class="about__content">
                     <div class="about__left">
-                        <img class="about__logo" width="203" height="110" src="images/logo.svg" alt="logo">
+                        <img class="about__logo" width="203" height="110" src="images/svg/logo.svg" alt="logo">
                         <p class="about__text">
                             Добро пожаловать в&nbsp;Летний Дворец!<br>
                             <br> Всего в&nbsp;12&nbsp;километрах от&nbsp;Петербурга, неподалеку от&nbsp;знаменитых фонтанов и&nbsp;парков Петергофа воплощен в&nbsp;жизнь один из&nbsp;самых грандиозных проектов event-индустрии России&nbsp;&mdash; ресторанный
@@ -116,24 +104,24 @@
                     <div class="about__right">
                         <div class="about__column-left">
                             <div class="about__title">
-                                <img src="images/icon-place.svg" width="46" height="30" alt="icon place">
+                                <img src="images/svg/icon-place.svg" width="46" height="30" alt="icon place">
                                 <h2 class="about__heading--small">Площадка</h2>
                             </div>
                             <p class="about__text">Сочетание классических интерьеров и современных технических возможностей выгодно отличают Летний Дворец от большинства других исторических площадок города.</p>
                             <div class="about__title">
-                                <img src="images/icon-technologies.svg" width="37" height="31" alt="icon technologies">
+                                <img src="images/svg/icon-technologies.svg" width="37" height="31" alt="icon technologies">
                                 <h2 class="about__heading--small">Технологии</h2>
                             </div>
                             <p class="about__text">Возможности «Летнего Дворца» практически безграничны с точки зрения проведения мероприятий самого разного формата и масштаба.</p>
                         </div>
                         <div class="about__column-right">
                             <div class="about__title">
-                                <img src="images/icon-interiors.svg" width="39" height="20" alt="icon interiors">
+                                <img src="images/svg/icon-interiors.svg" width="39" height="20" alt="icon interiors">
                                 <h2 class="about__heading--small">Интерьеры</h2>
                             </div>
                             <p class="about__text">Изысканное внутреннее убранство Летнего Дворца — тонко выполненная стилизация с использованием традиционных технологий и материалов — мрамора, бронзового литья.</p>
                             <div class="about__title">
-                                <img src="images/icon-equipment.svg" width="43" height="37" alt="icon equipment">
+                                <img src="images/svg/icon-equipment.svg" width="43" height="37" alt="icon equipment">
                                 <h2 class="about__heading--small">Оборудование</h2>
                             </div>
                             <p class="about__text">Установлен комплект самого современного звукового оборудования, который приятно удивит даже знатока качественного звука.</p>
@@ -147,33 +135,33 @@
             <div class="gallery__top">
                 <div class="gallery__header">
                     <h2 class="gallery__heading">Галерея</h2>
-                    <img class="gallery__logo" src="images/logo-small.svg" width="46" height="30" alt="logo small">
+                    <img class="gallery__logo" src="images/svg/logo-small.svg" width="46" height="30" alt="logo small">
                     <h3 class="gallery__heading--mini">Летний дворец</h3>
                 </div>
                 <picture>
-                    <source srcset="images/gallery01-prev.png, images/gallery01-prev@2.png 2x" type="image/png">
-                    <img src="images/gallery01-prev.png" srcset="images/gallery01-prev.png, images/gallery01-prev@2.png 2x" width="445" height="300" alt="gallery photo">
+                    <source srcset="images/gallery01-prev@1.png 1x, images/gallery01-prev@2.png 2x" type="image/png">
+                    <img src="images/gallery01-prev@1.png 1x" srcset="images/gallery01-prev@1.png 1x, images/gallery01-prev@2.png 2x" width="445" height="300" alt="gallery photo">
                 </picture>
                 <picture>
-                    <source srcset="images/gallery02-prev.png, images/gallery02-prev@2.png 2x" type="image/png">
-                    <img src="images/gallery02-prev.png" srcset="images/gallery02-prev.png, images/gallery02-prev@2.png 2x" width="350" height="300" alt="gallery photo">
+                    <source srcset="images/gallery02-prev@1.png 1x, images/gallery02-prev@2.png 2x" type="image/png">
+                    <img src="images/gallery02-prev@1.png 1x" srcset="images/gallery02-prev@1.png 1x, images/gallery02-prev@2.png 2x" width="350" height="300" alt="gallery photo">
                 </picture>
             </div>
             <div class="gallery__bottom">
                 <div class="gallery__left">
                     <picture>
-                        <source srcset="images/gallery00.png, images/gallery00@2.png 2x" type="image/png">
-                        <img src="images/gallery00.png" srcset="images/gallery00.png, images/gallery00@2.png 2x" width="635" height="630" alt="gallery photo">
+                        <source srcset="images/gallery00@1.png 1x, images/gallery00@2.png 2x" type="image/png">
+                        <img src="images/gallery00@1png 1x" srcset="images/gallery00.png 1x, images/gallery00@2.png 2x" width="635" height="630" alt="gallery photo">
                     </picture>
                 </div>
                 <div class="gallery__right">
                     <picture>
-                        <source srcset="images/gallery03-prev.png, images/gallery03-prev@2.png 2x" type="image/png">
-                        <img src="images/gallery03-prev.png" srcset="images/gallery03-prev.png, images/gallery03-prev@2.png 2x" width="445" height="300" alt="gallery photo">
+                        <source srcset="images/gallery03-prev@1.png 1x, images/gallery03-prev@2.png 2x" type="image/png">
+                        <img src="images/gallery03-prev@1.png 1x" srcset="images/gallery03-prev.png 1x, images/gallery03-prev@2.png 2x" width="445" height="300" alt="gallery photo">
                     </picture>
                     <picture>
-                        <source srcset="images/gallery04-prev.png, images/gallery04-prev@2.png 2x" type="image/png">
-                        <img src="images/gallery04-prev.png" srcset="images/gallery04-prev.png, images/gallery04-prev@2.png 2x" width="445" height="300" alt="gallery photo">
+                        <source srcset="images/gallery04-prev@1.png 1x, images/gallery04-prev@2.png 2x" type="image/png">
+                        <img src="images/gallery04-prev@1.png 1x" srcset="images/gallery04-prev.png 1x, images/gallery04-prev@2.png 2x" width="445" height="300" alt="gallery photo">
                     </picture>
                 </div>
             </div>
@@ -195,18 +183,18 @@
                     <div>
                         <h3 class="feedback__heading">Ресторан</h3>
                         <ul class="feedback__contacts">
-                            <li class="feedback__contact--underline"><img src="images/icon-placeholder.svg" width="30" height="30" alt="icon placeholder">Санкт-Петербургское шоссе, д&nbsp;130, к.&nbsp;7</li>
-                            <li class="feedback__contact"><img src="images/icon-smartphone.svg" width="30" height="30" alt="icon smartphone">
+                            <li class="feedback__contact--underline"><img src="images/svg/icon-placeholder.svg" width="30" height="30" alt="icon placeholder">Санкт-Петербургское шоссе, д&nbsp;130, к.&nbsp;7</li>
+                            <li class="feedback__contact"><img src="images/svg/icon-smartphone.svg" width="30" height="30" alt="icon smartphone">
                                 <a class="feedback__phonemail" href="tel:+78122106795">+7 (812) 210 67&nbsp;95</a></li>
-                            <li class="feedback__contact"><img src="images/icon-mail.svg" width="30" height="22" alt="icon mail"><a class="feedback__phonemail" href="mailto:hello@summerpalace.ru">hello@summerpalace.ru</a></li>
+                            <li class="feedback__contact"><img src="images/svg/icon-mail.svg" width="30" height="22" alt="icon mail"><a class="feedback__phonemail" href="mailto:hello@summerpalace.ru">hello@summerpalace.ru</a></li>
                         </ul>
                     </div>
                     <div>
                         <h3 class="feedback__heading">Офис</h3>
                         <ul class="feedback__contacts">
-                            <li class="feedback__contact--underline"><img src="images/icon-placeholder.svg" width="30" height="30" alt="icon placeholder">ст.&nbsp;м. &laquo;Лиговский проспект&raquo;, ул. Черняховского, д.&nbsp;75</li>
-                            <li class="feedback__contact"><img src="images/icon-smartphone.svg" width="30" height="30" alt="icon smartphone"><a class="feedback__phonemail" href="tel:+78122106795">+7 (812) 210 67&nbsp;95</a></li>
-                            <li class="feedback__contact"><img src="images/icon-mail.svg" width="30" height="22" alt="icon mail"><a class="feedback__phonemail" href="mailto:hello@summerpalace.ru">hello@summerpalace.ru</a></li>
+                            <li class="feedback__contact--underline"><img src="images/svg/icon-placeholder.svg" width="30" height="30" alt="icon placeholder">ст.&nbsp;м. &laquo;Лиговский проспект&raquo;, ул. Черняховского, д.&nbsp;75</li>
+                            <li class="feedback__contact"><img src="images/svg/icon-smartphone.svg" width="30" height="30" alt="icon smartphone"><a class="feedback__phonemail" href="tel:+78122106795">+7 (812) 210 67&nbsp;95</a></li>
+                            <li class="feedback__contact"><img src="images/svg/icon-mail.svg" width="30" height="22" alt="icon mail"><a class="feedback__phonemail" href="mailto:hello@summerpalace.ru">hello@summerpalace.ru</a></li>
                         </ul>
                     </div>
                 </div>
@@ -225,7 +213,7 @@
             <div class="instagram">
                 <div class="instagram__header">
                     <h2 class="instagram__heading--big">Наш Instagram</h2>
-                    <img class="instagram__logo-small" src="images/logo-small.svg" width="46" height="30" alt="logo small">
+                    <img class="instagram__logo-small" src="images/svg/logo-small.svg" width="46" height="30" alt="logo small">
                     <h3 class="instagram__heading--mini">Летний дворец</h3>
                 </div>
             </div>

@@ -1,7 +1,7 @@
 /* instagram section */
 
 .instagram {
-    background: #F9F7F7;
+    background: var(--backgroung-color);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,7 +22,7 @@
     line-height: 145%;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: #222222;
+    color: var(--heading-color);
 }
 
 .instagram__logo-small {
@@ -37,10 +37,10 @@
     letter-spacing: 0.03em;
     text-align: center;
     text-transform: uppercase;
-    color: #000000;
+    color: var(--instagram-heading--mini-color);
 }
 
 .instagram__feed {
     min-height: 304px;
-    background-image: url(../images/insta_feed-prev.png);
+    background-image: url(../images/insta_feed-prev@1.png);
 }

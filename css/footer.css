@@ -14,7 +14,7 @@ footer {
     font-weight: 300;
     font-size: 14px;
     line-height: 135%;
-    color: #000000;
+    color: var(--footer-paragraph-color);
 }
 
 .footer__social {

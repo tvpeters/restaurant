@@ -8,12 +8,12 @@
     margin: 60px auto;
 }
 
-.header__logo {
-    fill: #000;
+.header__logo:hover {
+    transform: scale(1.07);
 }
 
-.icon-ext-menu {
-    fill: #000;
+.header__hamburger:hover {
+    transform: scale(1.07);
 }
 
 .header__menu {
@@ -27,18 +27,23 @@
     text-transform: uppercase;
 }
 
+.header__item:hover {
+    font-weight: bold;
+    color: var(--heading-color);
+}
+
 .header__item:first-child .header__text {
-    border: 1px solid rgba(209, 169, 84, 0.9);
+    border: 1px solid var(--main-color-op);
     padding: 7px 9px 6px 9px;
-    color: #D1A954;
+    color: var(--main-color);
 }
 
 .header__item:nth-child(2) .header__text {
     font-weight: bold;
-    color: #D1A954;
+    color: var(--main-color);
 }
 
 .header__text {
     text-decoration: none;
-    color: #000000;
+    color: var(--header-text-color);
 }

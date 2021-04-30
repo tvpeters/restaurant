@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: center;
     min-height: 409px;
-    background-image: url(../images/learn-more.png);
+    background-image: url(../images/learn-more@1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,7 +18,7 @@
     line-height: 145%;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--learnmore-heading-color);
     text-align: center;
     margin-top: 0;
     margin-bottom: 70px;
@@ -33,8 +33,12 @@
 
 .learnmore__download {
     padding: 22px 46px;
-    background: #FFFFFF;
+    background: var(--learnmore-download-color);
     border: none;
+}
+
+.learnmore__download:hover {
+    background: var(--main-color);
 }
 
 .learnmore__download-left {
@@ -47,5 +51,5 @@
     font-size: 16px;
     line-height: 20px;
     letter-spacing: 0.05em;
-    color: #000000;
+    color: var(--learnmore-text-color);
 }

@@ -8,10 +8,6 @@ body {
     background: #FFFFFF;
 }
 
-.icon {
-    fill: #000;
-}
-
 .wrapper {
     max-width: 1800px;
     margin: 0 auto;
@@ -37,4 +33,33 @@ input[type="radio"].visually-hidden {
     clip-path: inset(100%);
     clip: rect(0, 0, 0, 0);
     overflow: hidden;
+}
+
+:root {
+    --main-color: #D1A954;
+    --main-color-op: rgba(209, 169, 84, 0.9);
+    --paragraph-color: #616161;
+    --heading-color: #222222;
+    --heading-small-color: #000000;
+    --heading-mini-color: #000000;
+    --backgroung-color: #F9F7F7;
+    --header-text-color: #000000;
+    --about-border-color: #FFFFFF;
+    --box-shadow: 0px 0px 30px rgba(126, 126, 126, 0.25);
+    --feedback-heading-big-color: #000000;
+    --feedback-heading-color: #000000;
+    --feedback-contacts-color: #000000;
+    --feedback-phonemail-color: #000000;
+    --feedback-submit-color: #FFFFFF;
+    --feedback-message-border: 0.5px solid #D0D0D0;
+    --footer-paragraph-color: #000000;
+    --gallery-heading-color: #000000;
+    --gallery-heading--mini-color: #000000;
+    --instagram-heading--mini-color: #000000;
+    --learnmore-heading-color: #FFFFFF;
+    --learnmore-download-color: #FFFFFF;
+    --learnmore-text-color: #000000;
+    --promo-border: 1px solid rgba(255, 255, 255, 0.5);
+    --promo-heading-color: #FFFFFF;
+    --promo-paragraph-color: #FFFFFF;
 }
