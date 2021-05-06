@@ -14,9 +14,17 @@ footer {
     font-weight: 300;
     font-size: 14px;
     line-height: 135%;
-    color: var(--footer-paragraph-color);
 }
 
 .footer__social {
-    text-decoration: none
+    text-decoration: none;
+    color: var(--footer-paragraph-color);
+}
+
+.footer__social:hover {
+    font-weight: bold;
+}
+
+.footer__social:active {
+    color: var(--main-color);
 }

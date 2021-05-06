@@ -102,15 +102,24 @@
 }
 
 .feedback__submit {
-    padding: 0;
     cursor: pointer;
     border: none;
-    width: 182px;
-    height: 45px;
-    background: var(--main-color);
+    max-width: 182px;
+    min-height: 45px;
     font-size: 16px;
     line-height: 135%;
     letter-spacing: 0.05em;
     text-transform: uppercase;
+    background: var(--main-color);
     color: var(--feedback-submit-color);
+}
+
+.feedback__submit:hover {
+    background: var(--feedback-submit-color);
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+}
+
+.feedback__submit:active {
+    font-weight: bold;
 }

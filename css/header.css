@@ -8,11 +8,15 @@
     margin: 60px auto;
 }
 
-.header__logo:hover {
-    transform: scale(1.07);
+.header__hamburger {
+    stroke: var(--header-text-color);
 }
 
 .header__hamburger:hover {
+    stroke: var(--main-color);
+}
+
+.header__hamburger:active {
     transform: scale(1.07);
 }
 
@@ -30,6 +34,10 @@
 .header__item:hover {
     font-weight: bold;
     color: var(--heading-color);
+}
+
+.header__item:active {
+    transform: scale(1.07);
 }
 
 .header__item:first-child .header__text {

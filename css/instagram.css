@@ -43,4 +43,5 @@
 .instagram__feed {
     min-height: 304px;
     background-image: url(../images/insta_feed-prev@1.png);
+    background-color: var(--backgroung-color);
 }

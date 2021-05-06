@@ -6,6 +6,7 @@
     justify-content: center;
     min-height: 409px;
     background-image: url(../images/learn-more@1.png);
+    background-color: var(--backgroung-color);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -29,6 +30,10 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 90px;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
 }
 
 .learnmore__download {
@@ -37,19 +42,32 @@
     border: none;
 }
 
-.learnmore__download:hover {
+.learnmore__download-left {
+    text-decoration: none;
+    color: var(--learnmore-text-color);
+    background: var(--learnmore-download-color);
+    padding: 23px 58px 20px 57px;
+}
+
+.learnmore__download-right {
+    text-decoration: none;
+    color: var(--learnmore-text-color);
+    background: var(--learnmore-download-color);
+    padding: 22px 46px;
+}
+
+.learnmore__download-left:hover {
     background: var(--main-color);
 }
 
-.learnmore__download-left {
-    padding: 22px 58px;
+.learnmore__download-right:hover {
+    background: var(--main-color);
 }
 
-.learnmore__text {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.05em;
-    color: var(--learnmore-text-color);
+.learnmore__download-left:active {
+    font-weight: bold;
+}
+
+.learnmore__download-right:active {
+    font-weight: bold;
 }

@@ -47,6 +47,15 @@
 
 .about__playbutton {
     position: absolute;
+    fill: var(--main-color);
+}
+
+.about__playbutton:hover {
+    transform: scale(1.07);
+}
+
+.about__playbutton:active {
+    fill: var(--active-color);
 }
 
 .about__background {

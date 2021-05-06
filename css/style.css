@@ -38,6 +38,7 @@ input[type="radio"].visually-hidden {
 :root {
     --main-color: #D1A954;
     --main-color-op: rgba(209, 169, 84, 0.9);
+    --active-color: red;
     --paragraph-color: #616161;
     --heading-color: #222222;
     --heading-small-color: #000000;
