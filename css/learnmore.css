@@ -47,6 +47,16 @@
     color: var(--learnmore-text-color);
     background: var(--learnmore-download-color);
     padding: 23px 58px 20px 57px;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.learnmore__download-left:hover {
+    color: var(--learnmore-download-color);
+    box-shadow: 0 0 40px 40px #D1A954 inset;
+}
+
+.learnmore__download-left:active {
+    color: var(--learnmore-text-color);
 }
 
 .learnmore__download-right {
@@ -54,20 +64,14 @@
     color: var(--learnmore-text-color);
     background: var(--learnmore-download-color);
     padding: 22px 46px;
-}
-
-.learnmore__download-left:hover {
-    background: var(--main-color);
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
 }
 
 .learnmore__download-right:hover {
-    background: var(--main-color);
-}
-
-.learnmore__download-left:active {
-    font-weight: bold;
+    color: var(--learnmore-download-color);
+    box-shadow: 0 0 40px 40px #D1A954 inset;
 }
 
 .learnmore__download-right:active {
-    font-weight: bold;
+    color: var(--learnmore-text-color);
 }

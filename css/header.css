@@ -31,27 +31,22 @@
     text-transform: uppercase;
 }
 
-.header__item:hover {
-    font-weight: bold;
-    color: var(--heading-color);
+.header__text {
+    text-decoration: none;
+    color: var(--header-text-color);
 }
 
-.header__item:active {
-    transform: scale(1.07);
+.header__text:hover {
+    font-weight: bold;
+    color: var(--main-color);
+}
+
+.header__text:active {
+    color: var(--active-color);
 }
 
 .header__item:first-child .header__text {
     border: 1px solid var(--main-color-op);
     padding: 7px 9px 6px 9px;
     color: var(--main-color);
-}
-
-.header__item:nth-child(2) .header__text {
-    font-weight: bold;
-    color: var(--main-color);
-}
-
-.header__text {
-    text-decoration: none;
-    color: var(--header-text-color);
 }
