@@ -64,3 +64,16 @@ input[type="radio"].visually-hidden {
     --promo-heading-color: #FFFFFF;
     --promo-paragraph-color: #FFFFFF;
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .slider-controls {
+        margin-bottom: 0px;
+    }
+    .wrapper {
+        max-width: 1024px;
+    }
+}
+
+
+/* 
+@media (max-width: 767px) {} */

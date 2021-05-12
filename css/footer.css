@@ -29,3 +29,17 @@ footer {
 .footer__social:active {
     color: var(--active-color);
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .footer {
+        max-width: 700px;
+        display: flex;
+        flex-direction: column-reverse;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+    .footer__paragraph {
+        padding-right: 0px;
+        margin-top: 15px;
+    }
+}

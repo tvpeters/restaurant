@@ -50,3 +50,13 @@
     padding: 7px 9px 6px 9px;
     color: var(--main-color);
 }
+
+@media (max-width: 1024px) {
+    .header {
+        max-width: 700px;
+    }
+    .header__menu {
+        display: none;
+        margin: 30px auto;
+    }
+}

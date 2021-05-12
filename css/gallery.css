@@ -63,3 +63,28 @@
     max-width: 445px;
     gap: 30px;
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .gallery {
+        max-width: 1023px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .gallery__top {
+        flex-direction: column;
+        align-items: center;
+    }
+    .gallery__image {
+        width: 580px;
+        height: 100%;
+    }
+    .gallery__bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+    .gallery__right {
+        max-width: 100%;
+    }
+}
