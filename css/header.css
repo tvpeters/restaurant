@@ -57,6 +57,12 @@
     }
     .header__menu {
         display: none;
-        margin: 30px auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .header {
+        max-width: 320px;
+        margin: 15px auto;
     }
 }
