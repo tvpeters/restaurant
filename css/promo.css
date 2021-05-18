@@ -59,6 +59,12 @@
     .promo {
         margin-bottom: 30px;
     }
+    .promo__card:nth-child(2) {
+        display: none;
+    }
+    .promo__card:nth-child(3) {
+        display: none;
+    }
 }
 
 @media (max-width: 767px) {
@@ -91,5 +97,11 @@
     }
     .promo__paragraph {
         font-size: 10px;
+    }
+    .promo__card:nth-child(2) {
+        display: none;
+    }
+    .promo__card:nth-child(3) {
+        display: none;
     }
 }

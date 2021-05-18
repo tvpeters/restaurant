@@ -151,28 +151,29 @@
 
 @media (max-width: 767px) {
     .feedback {
-        margin-bottom: 15px;
+        margin-bottom: 25px;
     }
     .feedback__left {
         margin-bottom: 15px;
+        max-width: 300px;
     }
     .feedback__heading-big {
         margin-bottom: 10px;
-        font-size: 18px;
+        font-size: 20px;
     }
     .feedback__paragraph {
         margin-bottom: 10px;
-        font-size: 10px;
+        font-size: 14px;
     }
     .feedback__heading {
         margin-top: 15px;
         margin-bottom: 10px;
-        font-size: 14px;
+        font-size: 16px;
         text-align: center;
     }
     .feedback__contacts {
-        font-size: 10px;
-        margin-left: 20px;
+        font-size: 14px;
+        margin-left: 0px;
     }
     .feedback__bottom {
         display: flex;
@@ -180,25 +181,34 @@
         gap: 10px;
     }
     .feedback__input {
-        padding-left: 7px;
+        padding-left: 10px;
         margin-bottom: 15px;
         height: 32px;
         width: 300px;
-        font-size: 10px;
+        font-size: 14px;
     }
     .feedback__message {
-        font-size: 10px;
+        font-size: 14px;
         margin-top: 10px;
-        margin-bottom: 15px;
+        margin-bottom: 25px;
         padding-top: 7px;
-        padding-left: 7px;
+        padding-left: 10px;
         width: 300px;
-        height: 101px;
+        height: 150px;
     }
     .feedback__submit {
-        max-width: 104px;
-        min-height: 30px;
-        font-size: 12px;
+        padding: 10px 20px;
+        min-height: 40px;
+        font-size: 14px;
         align-self: center;
+    }
+    .feedback__contact {
+        gap: 15px;
+    }
+    .feedback__contact--underline {
+        gap: 15px;
+    }
+    .feedback__right {
+        margin-top: 15px;
     }
 }

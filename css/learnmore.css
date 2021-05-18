@@ -89,20 +89,23 @@
         margin-bottom: 20px;
     }
     .learnmore__heading {
-        font-size: 18px;
+        font-size: 20px;
         margin-bottom: 10px;
     }
     .learnmore__downloads {
         flex-direction: column;
+        align-items: center;
         gap: 20px;
         font-size: 14px;
     }
     .learnmore__download-left {
-        padding: 11px 29px 10px 28px;
+        padding: 16px;
         text-align: center;
+        width: 200px;
     }
     .learnmore__download-right {
-        padding: 11px 23px;
+        padding: 16px;
         text-align: center;
+        width: 200px;
     }
 }

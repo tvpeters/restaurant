@@ -186,18 +186,18 @@
     }
     .about__heading--big {
         margin-bottom: 10px;
-        font-size: 18px;
+        font-size: 24px;
     }
     .about__heading--small {
-        font-size: 10px;
+        font-size: 16px;
         align-self: center;
     }
     .about__heading--mini {
-        font-size: 7px;
+        font-size: 10px;
     }
     .about__text {
         margin-bottom: 15px;
-        font-size: 9px;
+        font-size: 14px;
         text-align: center;
     }
     .about__title {
@@ -212,5 +212,15 @@
     }
     .about__left {
         margin-top: 120px;
+    }
+    .about__logo {
+        height: 80px;
+        margin-bottom: 15px;
+    }
+    .about__column-left {
+        max-width: 300px;
+    }
+    .about__column-right {
+        max-width: 300px;
     }
 }

@@ -64,5 +64,9 @@
     .header {
         max-width: 320px;
         margin: 15px auto;
+        margin-bottom: 0px;
+    }
+    .header__logo {
+        width: 100px;
     }
 }
