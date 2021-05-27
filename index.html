@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/promo.css">
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/gallery.css">
@@ -23,6 +24,8 @@
         document.createElement("picture");
     </script>
     <script src="js/picturefill.min.js" async></script>
+    <script src="js/navbar.js" async></script>
+
     <title>Ресторанный комплекс &laquo;Летний дворец&raquo;&nbsp;&mdash; Главная</title>
 </head>
 
@@ -39,11 +42,38 @@
                 <li class="header__item"><a class="header__text" href="#">Для агенств</a></li>
             </ul>
         </nav>
-        <a href="#">
+        <!-- <a class="header__hamburger-link" href="#">
             <svg id="icon-ext-menu" class="header__hamburger" width="40" height="20">
                 <use xlink:href="images/svg/sprite.svg#icon-ext-menu"></use>
             </svg>
-        </a>
+        </a> -->
+
+        <nav class="navbar">
+            <span class="navbar-toggle" id="js-navbar-toggle">
+                    <!-- <i class="fas fa-bars"></i> -->
+                    <svg id="icon-ext-menu" class="header__hamburger" width="40" height="20">
+                        <use xlink:href="images/svg/sprite.svg#icon-ext-menu"></use>
+                    </svg>
+                </span>
+            <ul class="main-nav" id="js-menu">
+                <li>
+                    <a href="#" class="nav-links">Home</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-links">Products</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-links">About Us</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-links">Contact Us</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-links">Blog</a>
+                </li>
+            </ul>
+        </nav>
+
     </header>
 
     <main>
