@@ -67,7 +67,7 @@
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .promo {
         gap: 15px;
         margin-bottom: 15px;
