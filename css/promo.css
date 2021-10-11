@@ -11,13 +11,16 @@
     flex-direction: column;
     justify-content: flex-end;
     position: relative;
-    width: 580px;
     height: 650px;
+    max-width: 580px;
+    width: 100%;
+    margin: 0px 10px;
 }
 
 .promo__picture {
     position: absolute;
     height: 100%;
+    width: 100%;
 }
 
 .promo__footer {
@@ -46,6 +49,16 @@
     font-size: 30px;
     text-transform: uppercase;
     color: var(--promo-heading-color);
+}
+
+.promo__image {
+    /* width: 300px;
+    height: 336px; */
+    width: 100%;
+}
+
+.swiper-pagination-bullet{
+    margin: 10px;
 }
 
 .promo__paragraph {
@@ -79,6 +92,8 @@
         position: relative;
         width: 300px;
         height: 336px;
+        /* Add center mode */
+        margin: 0 auto;
     }
     .promo__image {
         width: 300px;

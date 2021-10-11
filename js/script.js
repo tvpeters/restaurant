@@ -25,6 +25,10 @@ let swiper = new Swiper('.swiper-container', {
         },
         // when window width is >= 1024px
         1024: {
+            slidesPerView: 2,
+            spaceBetween: 40
+        },
+        1440: {
             slidesPerView: 3,
             spaceBetween: 40
         }
